@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ent.Flipcard.Flipcard1"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Flipcard.Flipcard2"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Flipcard.Flipcard3"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Flipcard.Flipcard4"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Flipcard.Flipcard5"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Flipcard.Flipcard6"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Flipcard.Flipcard7"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Flipcard.Flipcard8"
+            android:exported="false" />
+        <activity
+            android:name=".novel.Story_novel4"
+            android:exported="false" />
+        <activity
+            android:name=".novel.Story_novel10"
+            android:exported="false" />
+        <activity
+            android:name=".novel.Story_novel9"
+            android:exported="false" />
+        <activity
+            android:name=".novel.Story_novel8"
+            android:exported="false" />
+        <activity
+            android:name=".novel.Story_novel7"
+            android:exported="false" />
+        <activity
+            android:name=".novel.Story_novel6"
+            android:exported="false" />
+        <activity
+            android:name=".novel.Story_novel5"
+            android:exported="false" />
+        <activity
+            android:name=".novel.Story_novel3"
+            android:exported="false" />
+        <activity
+            android:name=".mom.Design_mom1"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Music.Design_music1"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Music.Design_music2"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Music.Design_music3"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Music.Design_music4"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Music.Design_music5"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Music.Design_music6"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Music.Design_music7"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Music.Design_music8"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Music.Design_music9"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Music.Design_music10"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Menu_ent"
+            android:exported="false" />
+        <activity
+            android:name=".mom.Menu_mom"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Ent_menu_music"
+            android:exported="false" />
+        <activity
+            android:name=".ent.Menu_ent"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".novel.Story_novel1"
+            android:exported="false" />
+        <activity
+            android:name=".novel.Story_novel1"
+            android:exported="false"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".novel.Menu_novel"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".ent.tictactoegame.TicMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ent.tictactoegame.GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".novel.Story_novel2"
+            android:exported="false" />
+        <activity android:name=".ent.Snacke.SnackeMainActivity" />
+        <activity android:name=".study.ShapesActivity" />
+        <activity android:name=".study.WeekActivity" />
+        <activity android:name=".study.AlphabetActivity" />
+        <activity android:name=".study.NumbersActivity" />
+        <activity android:name=".study.KidsMainActivity" />
+        <activity android:name=".study.ColorsActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

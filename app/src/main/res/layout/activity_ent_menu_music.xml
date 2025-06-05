@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <TextView
+        android:id="@+id/txtview_head_mom"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:background="@drawable/card_buttton_bg"
+        android:fontFamily="@font/berlinlight"
+        android:gravity="center"
+        android:text="Playlist"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <TableRow
+        android:layout_width="387dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="133dp"
+            android:layout_height="68dp"
+            app:srcCompat="@drawable/achang" />
+
+        <TextView
+            android:id="@+id/textv_namem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ช้าง ช้าง ช้าง" />
+
+        <Button
+            android:id="@+id/btn_music1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="ฟังเพลงนี้" />
+
+        <ImageView
+            android:id="@+id/imageView00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_note_music" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="139dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/atao" />
+
+        <TextView
+            android:id="@+id/textv_namem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="เต่าเอ๋ยเต่า" />
+
+        <Button
+            android:id="@+id/btn_music2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="ฟังเพลงนี้" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_note_music" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="139dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/aped" />
+
+        <TextView
+            android:id="@+id/textv_namem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="เป็นอาบน้ำในคลอง" />
+
+        <Button
+            android:id="@+id/btn_music3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="ฟังเพลงนี้" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_note_music" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="139dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/asue" />
+
+        <TextView
+            android:id="@+id/textv_namem4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="หนอนผีเสื้อ" />
+
+        <Button
+            android:id="@+id/btn_music4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="ฟังเพลงนี้" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_note_music" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="139dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/akop" />
+
+        <TextView
+            android:id="@+id/textv_namem5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="กบเอยทำไมจึงร้อง" />
+
+        <Button
+            android:id="@+id/btn_music5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="ฟังเพลงนี้" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_note_music" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="139dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/aung" />
+
+        <TextView
+            android:id="@+id/textv_namem6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="อึ่งอ่างมานั่งข้างโอ่ง" />
+
+        <Button
+            android:id="@+id/btn_music6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="ฟังเพลงนี้" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_note_music" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="139dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/apu" />
+
+        <TextView
+            android:id="@+id/textv_namem7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="จับปูดำขยำปูนา" />
+
+        <Button
+            android:id="@+id/btn_music7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="ฟังเพลงนี้" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_note_music" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="139dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/ameu" />
+
+        <TextView
+            android:id="@+id/textv_namem8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="นิ้วโป้งอยู่ไหน" />
+
+        <Button
+            android:id="@+id/btn_music8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="ฟังเพลงนี้" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_note_music" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="139dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/amang" />
+
+        <TextView
+            android:id="@+id/textv_namem9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="แมงมุม" />
+
+        <Button
+            android:id="@+id/btn_music9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="ฟังเพลงนี้" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_note_music" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="139dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/arun" />
+
+        <TextView
+            android:id="@+id/textv_namem10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ม้าวิ่งกับกับ" />
+
+        <Button
+            android:id="@+id/btn_music10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="ฟังเพลงนี้" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_note_music" />
+    </TableRow>
+
+</TableLayout>
+</ScrollView>
+
+
+
+

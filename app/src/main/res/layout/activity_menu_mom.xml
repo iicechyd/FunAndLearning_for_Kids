@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:background="@color/white"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+
+    <TextView
+        android:id="@+id/txtview_head_mom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="เคล็ดลับของคุณแม่"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/red1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/head_book_mom"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="รายชื่อบทความ"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/head_detail_mom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="รายละเอียด"
+            android:textColor="@color/black" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img_book_mom1"
+            android:layout_width="110dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/storry_mom1" />
+
+        <TextView
+            android:id="@+id/textv_namem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="คู่มือการดูแลและพัฒนาการเด็กเล็ก วัย-0-3-ปี " />
+
+        <Button
+            android:id="@+id/btn_storymom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E49CF8"
+            android:text="เลือก"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img_book_mom2"
+            android:layout_width="110dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/storry_mom2" />
+
+        <TextView
+            android:id="@+id/textv_namem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="คู่มือการดูแลและพัฒนาการเด็กอนุบาล-วัย3-6-ปี" />
+
+        <Button
+            android:id="@+id/btn_storymom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E49CF8"
+            android:text="เลือก"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:background="#F0F7F7"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img_book_mom3"
+            android:layout_width="110dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/storry_mom3" />
+
+        <TextView
+            android:id="@+id/textv_namem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=". คู่มือการดูแลและพัฒนาการเด็กวัยเรียน วัย6-12-ปี" />
+
+        <Button
+            android:id="@+id/btn_storymom3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E49CF8"
+            android:text="เลือก"
+            android:textSize="20sp" />
+
+    </TableRow>
+</TableLayout>

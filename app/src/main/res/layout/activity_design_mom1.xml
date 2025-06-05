@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk"
+    tools:context=".mom.Design_mom1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="410dp"
+        android:layout_height="261dp"
+        android:layout_marginBottom="74dp"
+        android:background="#3BCDDC39"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="374dp"
+            android:layout_height="269dp"
+            android:layout_marginTop="4dp"
+            android:text="ช่วงวัย3 ปีแรกของชีวิตเด็กเป็นรากฐานที่สำคัญของสุขภาพในทุกมิติต่อช่วงชีวิตที่เหลือของเด็ก เป็นระยะที่เด็กเจริญเติบโตอย่างรวดเร็วและมีการเปลี่ยนแปลงอย่างมากมายของพัฒนาการในทุกๆด้าน จะเห็นได้ว่าสัดส่วนร่างกายเด็กมีการเพิ่มอย่างก้าวกระโดดทั้งน้ำหนัก ความยาวตัว โดยเฉพาะอย่างยิ่ง เส้นรอบศีรษะซึ่งบ่งบอกถึงการเติบโตของสมองของเด็กและจากเดิมที่เด็กยังทำอะไรเองไม่ได้ต้องพึ่งพา ผู้ใหญ่ทั้งหมดในการดำรงชีวิต เด็กสามารถเคลื่อนไหวได้เอง หยิบอาหารกินเอง ดื่มนมเอง ชี้บอกความ ต้องการ พูดสื่อสารอย่างง่ายๆ ได้แก้ปัญหาเล็กน้อยด้วยตัวเองได้"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.567"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="375dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/storry_mom1" />
+
+    <Button
+        android:id="@+id/btn_backto_m_mom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="BACK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.971" />
+</androidx.constraintlayout.widget.ConstraintLayout>
