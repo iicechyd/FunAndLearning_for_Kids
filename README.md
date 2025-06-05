@@ -1,0 +1,1 @@
+Developed a fun and educational mobile application for children using Kotlin in Android Studio as a collaborative project in 2023. The app offers interactive games, quizzes, and animations to enhance children's learning experiences. Additionally, it includes a parent mode where parents can track their child's progress and access curated parenting resources.
